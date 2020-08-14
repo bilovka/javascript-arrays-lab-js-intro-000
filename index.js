@@ -18,8 +18,7 @@ function appendKitten(name){
   return myarr.concat(name)
 }
 function prependKitten(name){
-  var myarr=[]
-  myarr=kittens
-  myarr.unshift(name)
+  var myarr=["Milo", "Otis", "Garfield"]
+  myarr.unshift
   return myarr
 }
