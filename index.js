@@ -17,4 +17,5 @@ function appendKitten(name){
   var myarr=kittens
   myarr.push(name)
   console.log(myarr)
+  return kittens
 }
