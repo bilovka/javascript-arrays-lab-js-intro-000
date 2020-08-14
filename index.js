@@ -21,5 +21,5 @@ function prependKitten(name){
   var myarr=[]
   myarr=kittens
   myarr.push(name)
-  return arr
+  return myarr
 }
