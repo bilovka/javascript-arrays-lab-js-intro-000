@@ -19,5 +19,7 @@ function appendKitten(name){
 }
 function prependKitten(name){
   var myarr=kittens
-  return myarr.slice(1)
+  myarr.slice(1)
+  return myarr
+  
 }
