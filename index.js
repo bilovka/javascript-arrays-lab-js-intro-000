@@ -17,3 +17,7 @@ function appendKitten(name){
   var myarr=kittens
   return myarr.concat(name)
 }
+function prependKitten(name){
+  var myarr=kittens
+  return myarr.slice(1)
+}
