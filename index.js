@@ -16,6 +16,6 @@ function destructivelyRemoveFirstKitten(){
 function appendKitten(name){
   var myarr=[]
   myarr=kittens
-  myarr.push(name)
+  myarr.concat(name)
   return myarr
 }
